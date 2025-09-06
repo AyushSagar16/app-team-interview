@@ -1,0 +1,61 @@
+@import "tailwindcss";
+
+:root {
+  --colors-dark: #1C275A;
+  --text-secondary: #979797;
+  --primary: #0D0D0D;
+  --green: #50806B;
+  --colors-white: #FFF;
+  --colors-sage: #E8EDDE;
+  --colors-border: #E3E5E5;
+}
+
+@theme inline {
+  --font-open-sans: var(--font-open-sans);
+  --font-poppins: var(--font-poppins);
+  --font-roboto: var(--font-roboto);
+  --font-inter: var(--font-inter);
+}
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #FFFFFF;
+  color: #000000;
+  font-family: var(--font-open-sans), -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0;
+  padding: 0;
+  line-height: 1.5;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-poppins), -apple-system, Roboto, Helvetica, sans-serif;
+  margin: 0;
+}
+
+button {
+  font-family: inherit;
+  cursor: pointer;
+}
+
+input, select, textarea {
+  font-family: inherit;
+}
+
+.font-poppins {
+  font-family: var(--font-poppins), -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.font-open-sans {
+  font-family: var(--font-open-sans), -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.font-roboto {
+  font-family: var(--font-roboto), -apple-system, Roboto, Helvetica, sans-serif;
+}
+
+.font-inter {
+  font-family: var(--font-inter), -apple-system, Roboto, Helvetica, sans-serif;
+}
